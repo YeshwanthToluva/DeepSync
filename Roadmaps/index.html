@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Roadmaps</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Developer Roadmaps</h1>
+  <p>Select a category to explore specific roadmaps</p>
+
+  <!-- Category Selector -->
+  <div class="category-selector">
+    <button onclick="showCategory('role')">Role-based</button>
+    <button onclick="showCategory('skill')">Skill-based</button>
+  </div>
+
+  <!-- Roadmap Grid -->
+  <div class="roadmap-container" id="roadmap-container"></div>
+
+  <!-- Detailed Roadmap Section -->
+  <div class="details-container" id="details-container">
+    <h2 id="details-title">Select a card to see its detailed roadmap</h2>
+    <div id="details-content"></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
